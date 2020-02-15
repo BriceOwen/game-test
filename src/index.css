@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: yellowgreen;
+}
+
+.title {
+  color: #26598c;
+  margin-bottom: 50px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.relative {
+  position: relative;
+}
+
+.btn {
+  margin: 0 auto;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  font-weight: 700;
+  font-size: 30px;
+  color: #26598c;
+  padding: 1.25rem 2rem;
+  text-transform: uppercase;
 }
